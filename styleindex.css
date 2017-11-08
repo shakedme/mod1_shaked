@@ -1,0 +1,22 @@
+.nav{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.list{
+	display: inline-block;
+}
+
+h1{
+	font-size: 50px;
+}
+
+.content{
+	padding-left: 40px;
+}
+
+.date{
+	padding-left: 15px;
+}
