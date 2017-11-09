@@ -1,7 +1,7 @@
 .nav{
 	list-style: none;
     margin: 0;
-    padding: none;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -13,29 +13,15 @@ h1{
 	font-size: 50px;
 }
 
-.content{
-	padding-left: 30px;
-}
-
-.date{
-	padding-left: 50px;
-}
-
 /*Poisition logo*/
 .logo{
 	float: left;
 	margin: 0px 20px 0px 0px;
 }
 
-
-/*Positing image 1*/
-.img1{
+.img2{
 	float: left;
-
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+	margin-bottom: 125px;
+	margin-right: 15px;
+	margin-top: 15px;
 }

@@ -30,7 +30,5 @@ h1{
 /*Positing image 3*/
 .img{
 	float: left;
-	margin-top: -65px;
-
+	margin-right: 20px;
 }
-
