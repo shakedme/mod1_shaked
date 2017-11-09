@@ -1,32 +1,49 @@
-.nav{
-	list-style: none;
+/*Set list properties*/
+
+.nav {
+    list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.list{
-	display: inline-block;
+
+/*Make list horizontol*/
+
+.list {
+    display: inline-block;
 }
 
-h1{
-	font-size: 50px;
+h1 {
+    font-size: 50px;
 }
+
 
 /*Poisition logo*/
-.logo{
-	float: left;
-	margin: 0px 20px 0px 0px;
+
+.logo {
+    float: left;
+    margin: 0px 20px 0px 0px;
 }
 
-.img2{
-	float: left;
-	margin-top: 15px;
+
+/*Position image*/
+
+.img2 {
+    float: left;
+    margin-top: 15px;
 }
 
-.content{
-	margin-left: 145px;}
 
-h3{
-	margin-left: 145px;
+/*align text according to other elements*/
+
+.main-content2 {
+    margin-left: 145px;
+}
+
+
+/*^*/
+
+h3 {
+    margin-left: 145px;
 }

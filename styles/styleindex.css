@@ -1,9 +1,13 @@
+/*Set list properties*/
+
 .nav {
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+
+/*Make list horizontol*/
 
 .list {
     display: inline-block;
@@ -13,16 +17,55 @@ h1 {
     font-size: 50px;
 }
 
+/*Poisition logo*/
+
 .logo {
     float: left;
     margin: 0px 20px 0px 0px;
 }
 
-.img {
+/*CSS Index*/
+
+.img1 {
     float: left;
     margin: 15px 15px 60px 0px;
 }
 
-.main-content {
+/*CSS About*/
+
+/*Position image*/
+
+.img2 {
+    float: left;
+    margin-top: 15px;
+}
+
+
+/*align text according to other elements*/
+
+.main-contentAbout {
     margin-left: 145px;
+}
+
+
+/*^*/
+
+h3 {
+    margin-left: 145px;
+}
+
+/*CSS Contact*/
+
+
+/*Positing image 3*/
+
+.img3 {
+    float: left;
+    margin-top: 15px;
+}
+
+/*^*/
+
+.main-contentContact {
+    padding-left: 145px;
 }
