@@ -21,7 +21,13 @@ h1{
 
 .img2{
 	float: left;
-	margin-bottom: 125px;
-	margin-right: 15px;
 	margin-top: 15px;
+}
+
+.content{
+	margin-left: 145px;
+}
+
+h3{
+	margin-left: 145px;
 }

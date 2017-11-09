@@ -1,7 +1,7 @@
 .nav{
 	list-style: none;
     margin: 0;
-    padding: none;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -14,8 +14,9 @@ h1{
 }
 
 .logo{
-	padding-right: 15px;
 	float: left;
+	margin: 0px 20px 0px 0px;
+
 }	
 
 .img{
@@ -23,3 +24,7 @@ h1{
 	margin: 15px 15px 60px 0px;
 }
 
+.main-content{
+	margin-left: 145px;
+
+}
