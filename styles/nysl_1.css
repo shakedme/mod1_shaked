@@ -1,0 +1,70 @@
+/*Resize and adjust image*/
+
+#header {
+    background-image: url(../images/design1_image1.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/* Top left corner text placement and properties*/
+
+.topleft {
+
+    position: absolute;
+    top: 90px;
+    left: 16px;
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+.list {
+    padding: 8px 0px 8px 0px;
+}
+
+
+/*Poisiton logo image*/
+
+.logo {
+    float: right;
+    margin-right: 200px;
+}
+
+
+/*Title properties and "box"*/
+
+#title {
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+/*Set list properties*/
+
+.nav {
+    list-style: none;
+    margin top: 65px;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+/* Allows horizontol alignment of nav and content */
+
+.float {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
