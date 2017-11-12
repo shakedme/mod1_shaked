@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+
 /*Resize and adjust image*/
 
 #header {
@@ -16,6 +17,7 @@ body {
 
 
 
+
 /* Top left corner text properties*/
 
 .topleft {
@@ -24,6 +26,7 @@ body {
     margin-top: 0;
     padding: 20px;
 }
+
 
 /*Spacing between links*/
 
@@ -35,6 +38,7 @@ body {
 
 
 
+
 /*Poisiton logo image*/
 
 .logo {
@@ -42,8 +46,8 @@ body {
     margin-right: 200px;
     margin-top: -100px;
     width: 100px;
-
 }
+
 
 
 
@@ -55,13 +59,16 @@ body {
     color: white;
     background-color: black;
     margin-top: 0;
-    padding: 15px;  
+    padding: 15px;
 }
 
-.links{
+/*Set properties of links*/
+
+.links {
     text-decoration: none;
     margin-left: 10px;
 }
+
 
 
 /*Set list properties*/
@@ -76,6 +83,7 @@ body {
 
 
 
+
 /* Allows horizontol alignment of nav and content */
 
 .float {
@@ -85,5 +93,5 @@ body {
 }
 
 .mainContent {
-	font-style: italic;
+    font-style: italic;
 }
