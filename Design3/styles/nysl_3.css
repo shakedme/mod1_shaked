@@ -1,8 +1,12 @@
+/* Setting body margin and background image*/
+
 body {
     margin: 0px;
     background-image: url(../images/soccer2.jpg);
     background-size: cover;
 }
+
+/*Positioning and size*/
 
 .title {
     text-align: center;
@@ -10,26 +14,36 @@ body {
 
 }
 
+/*Removing dots next to list item and positiong to the left of text*/
+
 .nav {
     list-style: none;
     float: left;
 }
 
-#link {
+/*Removing underline and setting properties*/
+
+.link {
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
 
+/*Spacing between links*/
+
 .list {
     padding: 10px 0px 10px 10px;
 }
+
+/*Setting text properties*/
 
 h2 {
     font-size: 30px;
     text-align: center;
     font-family: sans-serif;
 }
+
+/*Positioning logo*/
 
 .logo{
     width: 120px;
@@ -39,10 +53,12 @@ h2 {
 }
 
 
+
 .email {
     color: white;
 }
 
+/*Positioning and setting opacity, properties*/
 
 .content {
     width: 250px;
