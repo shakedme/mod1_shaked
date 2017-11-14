@@ -35,6 +35,12 @@ body {
     padding: 10px 0px 10px 10px;
 }
 
+/*Change link color when cursor hovers over*/
+
+a:hover{
+    color: darkgray;
+}
+
 /*Setting text properties*/
 
 h2 {
@@ -51,7 +57,6 @@ h2 {
     top: 30px;
     left: 20px;
 }
-
 
 
 .email {
