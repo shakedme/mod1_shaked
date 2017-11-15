@@ -7,6 +7,7 @@ body {
 }
 
 
+
 /*Positioning and size*/
 
 .title {
@@ -19,12 +20,14 @@ body {
 }
 
 
+
 /*Removing dots next to list item and positiong to the left of text*/
 
 .nav {
     list-style: none;
     float: left;
 }
+
 
 
 /*Removing underline and setting properties*/
@@ -34,6 +37,7 @@ body {
     font-size: 20px;
     color: white;
 }
+
 
 
 /*Spacing between links*/
@@ -52,11 +56,13 @@ p {
 
 
 
+
 /*Change link color when cursor hovers over*/
 
 a:hover {
     color: darkgray;
 }
+
 
 
 /*Setting text properties*/
@@ -68,6 +74,7 @@ a:hover {
     font-family: sans-serif;
     padding: 5px;
 }
+
 
 
 /*Positioning logo*/
@@ -83,6 +90,7 @@ a:hover {
 .email {
     color: white;
 }
+
 
 
 /*Positioning and setting opacity, properties*/
@@ -160,18 +168,20 @@ a:hover {
     overflow: scroll;
 }
 
+
 /* Poisition titles*/
 
 .left {
     padding-left: 15px;
 }
 
+
 /*Seperate table rows*/
 
 .tableH1 {
     padding: 0px 70px 20px 70px;
-
 }
+
 
 /*Seperate table rows*/
 
@@ -179,8 +189,8 @@ td {
     padding: 0px 70px 10px 70px;
 }
 
-/* Poisition title*/
 
+/* Poisition title*/
 
 #location {
     padding-left: 15px;
