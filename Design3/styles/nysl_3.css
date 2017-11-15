@@ -50,7 +50,6 @@ ol,
 p {
     font-size: 15px;
     text-decoration: none;
-    font-weight: none;
 }
 
 
@@ -168,6 +167,20 @@ a:hover {
     overflow: scroll;
 }
 
+.contentRegister {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    border: 2px solid black;
+    background: rgba(40, 5, 0, 0.7);
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 15px;
+    overflow: scroll;
+}
 
 /* Poisition titles*/
 
@@ -194,4 +207,12 @@ td {
 
 #location {
     padding-left: 15px;
+}
+
+.address {
+    width: 300px;
+}
+
+h5 {
+    text-decoration: underline;
 }
