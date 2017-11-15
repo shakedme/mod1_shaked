@@ -7,21 +7,18 @@ body {
 }
 
 
-
 /*Positioning and size*/
 
 .title {
     text-align: center;
-    font-size: 60px;
+    font-size: 380%;
     font-family: sans-serif;
     border: 1px solid black;
     background-color: linen;
     padding: 5px;
 }
 
-
-
-/*Removing dots next to list item and positiong to the left of text*/
+/*Removing bullet points next to list item and positiong to the left of text*/
 
 .nav {
     list-style: none;
@@ -29,15 +26,13 @@ body {
 }
 
 
-
 /*Removing underline and setting properties*/
 
 .link {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 120%;
     color: white;
 }
-
 
 
 /*Spacing between links*/
@@ -50,10 +45,8 @@ ol,
 p {
     font-size: 15px;
     text-decoration: none;
+    list-style-position: inside;
 }
-
-
-
 
 
 /*Change link color when cursor hovers over*/
@@ -61,7 +54,6 @@ p {
 a:hover {
     color: darkgray;
 }
-
 
 
 /*Setting text properties*/
@@ -72,7 +64,6 @@ a:hover {
     font-family: sans-serif;
     padding: 5px;
 }
-
 
 
 /*Positioning logo*/
@@ -90,11 +81,10 @@ a:hover {
 }
 
 
-
-/*Positioning and setting opacity, properties*/
+/*Positioning and setting opacity and properties to all pages DIV content*/
 
 .content {
-    width: 1000px;
+    width: 65%;
     height: 500px;
     position: absolute;
     top: 220px;
@@ -108,7 +98,7 @@ a:hover {
 }
 
 .contentAbout {
-    width: 1000px;
+    width: 65%;
     height: 500px;
     position: absolute;
     top: 220px;
@@ -122,7 +112,7 @@ a:hover {
 }
 
 .contentContact {
-    width: 1000px;
+    width: 65%;
     height: 500px;
     position: absolute;
     top: 220px;
@@ -137,7 +127,7 @@ a:hover {
 
 
 .contentRules {
-    width: 1000px;
+    width: 65%;
     height: 500px;
     position: absolute;
     overflow: scroll;
@@ -151,9 +141,15 @@ a:hover {
     text-align: center;
 }
 
+#center {
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .contentInfo {
-    width: 1000px;
-    height: 520px;
+    width: 65%;
+    height: 500px;
     position: absolute;
     top: 220px;
     left: 260px;
@@ -167,7 +163,7 @@ a:hover {
 }
 
 .contentRegister {
-    width: 1000px;
+    width: 65%;
     height: 500px;
     position: absolute;
     top: 220px;
@@ -180,6 +176,22 @@ a:hover {
     padding-left: 15px;
     overflow: scroll;
 }
+
+
+
+/*Center form */
+
+#centerRegister {
+    text-align: justify;
+    margin: 0 auto;
+    width: 70%;
+    background-color: linen;
+    padding: 15px;
+    color: black;
+    border: 3px solid black;
+}
+
+
 
 /* Poisition titles*/
 
@@ -208,15 +220,31 @@ td {
     padding-left: 15px;
 }
 
+
+/*Enlarge address box*/
+
 .address {
-    width: 300px;
+    width: 65%;
 }
 
-h5 {
+
+/*Set underline to 'Permission to play'*/
+
+.contentRegister h5 {
     text-decoration: underline;
 }
+
+
+/*Position map*/
 
 iframe {
     margin-left: 280px;
     margin-top: 15px;
+}
+
+
+/*Align button to center*/
+
+#submit {
+    text-align: center;
 }
