@@ -31,34 +31,60 @@
             <div id="centerRegister">
                 <!-- Create form and via different input types make appropriate to model-->
                 <form action="show_data.html" method="get">
-                    Players First name:
-                    <input class="topbox" type="text" name="firstname"> Last name:
-                    <input class="topbox" type="text" name="lastname">
-                    <br> Street Address:
-                    <input class="address" type="text" name="address">
-                    <br> City:
-                    <input type="text" name="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zip Code:
-                    <input type="text" name="zip">
-                    <br> Birthday: (mm/dd/yyyy)
-                    <input type="text" name="birthday">
+                    <div class="boxtable">
+                        <p>
+                            <label for="firstname">Players First name:</label>
+                            <input id="firstname" type="text" name="firstname">
+                        </p>
+                        <p>
+                            <label for="lastname">Last name:</label>
+                            <input id="lastname" type="text" name="lastname">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="address">Street Address:</label>
+                            <input id="address" type="text" name="address">
+                        </p>
+                        <p>
+                            <label for="city">City:</label>
+                            <input id="city" type="text" name="city">
+                        </p>
+                        <p>
+                            <label for="zipcode">Zip Code:</label>
+                            <input id="zipcode" type="text" name="zip">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="birthday">Birthday: (mm/dd/yyyy)&nbsp;</label>
+                            <input id="birthday" type="text" name="birthday">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="parent">Parent/Guardian:</label>
+                            <input id="parent" type="text" name="Parent/Guardian">
+                        </p>
+                        <p>
+                            <label for="phone">Contact Phone:</label>
+                            <input id="phone" class="phone" type="text" name="Phone">
+                        </p>
+                        <p>
+                            <label for="emailGuardian">Contact Email:</label>
+                            <input id="emailGuardian" type="text" name="Email">
+                        </p>
+                    </div>
                     <br> Gender:
                     <input type="radio" name="Gender" value="female"> Female
                     <input type="radio" name="Gender" value="male"> Male
                     <br> Grade:
+                    <br>
                     <input type="radio" name="grade" value="preschool"> Preschool
                     <input type="radio" name="grade" value="1st"> 1st
                     <input type="radio" name="grade" value="2nd"> 2nd
                     <input type="radio" name="grade" value="3rd"> 3rd
-                    <br> Parent/Guardian:
-                    <input type="text" name="Parent/Guardian"> Contact Phone:
-                    <input type="text" name="Phone">
-                    <br> Contact Email
-                    <input type="text" name="Email">
                     <br>
-                    <br> Which elementary schools do you live near?
                     <br>
-                    <br> First closest school:
-                    <br>
+                    <h3> Which elementary schools do you live near?</h3>
+                    <h4>First closest school:</h4>
                     <select name="1schools">
                         <option value="Greenbay">Greenbay</option>
                         <option value="Marjorie P Hart">Marjorie P Hart</option>
@@ -67,8 +93,8 @@
                         <option value="Howard A Yeager">Howard A Yeager</option>
                         <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                     </select>
-                    <br> Second closest school:
                     <br>
+                    <h4>Second closest school:</h4>
                     <select name="2schools">
                         <option value="Greenbay">Greenbay</option>
                         <option value="Marjorie P Hart">Marjorie P Hart</option>
@@ -78,22 +104,22 @@
                         <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                     </select>
                     <br>
-                    <br> What position(s) do you normally play? (check all that apply)
                     <br>
+                    <h4>What position(s) do you normally play? (check all that apply)</h4>
                     <br>
-                    <input type="checkbox" name="Forward">Forward &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="Forward">Forward
                     <input type="checkbox" name="Midfield">Midfield
                     <br>
-                    <input type="checkbox" name="Defense">Defense &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="Defense">Defense
                     <input type="checkbox" name="Goalkeeper">Goalkeeper
                     <br>
-                    <br> What position(s) do you want to play? (check all that apply)
                     <br>
+                    <h4>What position(s) do you want to play? (check all that apply)</h4>
                     <br>
-                    <input type="checkbox" name="Forward">Forward &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="Forward">Forward
                     <input type="checkbox" name="Midfield">Midfield
                     <br>
-                    <input type="checkbox" name="Defense">Defense &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="Defense">Defense
                     <input type="checkbox" name="Goalkeeper">Goalkeeper
                     <br>
                     <br>
@@ -107,26 +133,26 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="radio" name="jersey" value="youthsmall">Youth Small &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="radio" name="jersey" value="medium">Medium
+                                <input type="radio" name="jersey" value="youthsmall">Youth Small
+                                <input class="jersey" type="radio" name="jersey" value="medium">Medium
                                 <br>
-                                <input type="radio" name="jersey" value="youthmedium">Youth Medium &nbsp;
+                                <input type="radio" name="jersey" value="youthmedium">Youth Medium
                                 <input type="radio" name="jersey" value="large">Large
                                 <br>
-                                <input type="radio" name="jersey" value="youthlarge">Youth Large &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="radio" name="jersey" value="extralarge">Extra Large
+                                <input type="radio" name="jersey" value="youthlarge">Youth Large
+                                <input class="jersey" type="radio" name="jersey" value="extralarge">Extra Large
                                 <br>
                                 <input type="radio" name="jersey" value="small">Small
                             </td>
                             <td>
-                                <input type="radio" name="shorts" value="youthsmall">Youth Small &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="radio" name="shorts" value="medium">Medium
+                                <input type="radio" name="shorts" value="youthsmall">Youth Small
+                                <input class="jersey" type="radio" name="shorts" value="medium">Medium
                                 <br>
-                                <input type="radio" name="shorts" value="youthmedium">Youth Medium &nbsp;
+                                <input type="radio" name="shorts" value="youthmedium">Youth Medium
                                 <input type="radio" name="shorts" value="large">Large
                                 <br>
-                                <input type="radio" name="shorts" value="youthlarge">Youth Large &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="radio" name="shorts" value="extralarge">Extra Large
+                                <input type="radio" name="shorts" value="youthlarge">Youth Large
+                                <input class="jersey" type="radio" name="shorts" value="extralarge">Extra Large
                                 <br>
                                 <input type="radio" name="shorts" value="small">Small
                             </td>
@@ -142,7 +168,7 @@
                     <br>
                     <br>
                     <div id="submit">
-                 <input type="submit">
+                        <input type="submit">
                     </div>
                 </form>
             </div>

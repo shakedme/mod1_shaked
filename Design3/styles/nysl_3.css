@@ -2,28 +2,51 @@
 
 body {
     margin: 0px;
-    background-image: url(../images/soccer2.jpg);
+    background-image: url(../images/soccer3.jpeg);
     background-size: cover;
 }
+
+
+/*Edit scrollbar properties */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 2, 0, 1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 2, 0, 1);
+}
+
 
 
 /*Positioning and size*/
 
 .title {
     text-align: center;
-    font-size: 380%;
-    font-family: sans-serif;
+    font-size: 55px;
+    font-family: monospace;
     border: 1px solid black;
-    background-color: linen;
+    background-color: white;
     padding: 5px;
 }
+
+
 
 /*Removing bullet points next to list item and positiong to the left of text*/
 
 .nav {
     list-style: none;
-    float: left;
+    position: absolute;
+    top: 160px;
 }
+
+
 
 
 /*Removing underline and setting properties*/
@@ -31,22 +54,37 @@ body {
 .link {
     text-decoration: none;
     font-size: 120%;
+    background-color: black;
+    padding: 8px;
+    border: 1px solid black;
     color: white;
+    box-shadow: 3px 3px white;
+    border-radius: 10px;
 }
+
+
 
 
 /*Spacing between links*/
 
 .list {
-    padding: 10px 0px 10px 10px;
+    padding: 15px 0px 15px 10px;
 }
 
+
+
+
+/* Modify list style and font size in gamerules page*/
+
+ul,
 ol,
 p {
     font-size: 15px;
     text-decoration: none;
     list-style-position: inside;
 }
+
+
 
 
 /*Change link color when cursor hovers over*/
@@ -56,14 +94,18 @@ a:hover {
 }
 
 
+
+
 /*Setting text properties*/
 
 .index {
     font-size: 40px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: monospace;
     padding: 5px;
 }
+
+
 
 
 /*Positioning logo*/
@@ -76,128 +118,107 @@ a:hover {
 }
 
 
+
+/*Change email link color to white*/
+
 .email {
     color: white;
 }
+
+
 
 
 /*Positioning and setting opacity and properties to all pages DIV content*/
 
 .content {
     width: 65%;
-    height: 500px;
+    height: 80%;
     position: absolute;
-    top: 220px;
+    top: 140px;
     left: 260px;
     border: 2px solid black;
     background: rgba(40, 5, 0, 0.7);
     font-size: 18px;
     text-align: center;
     color: white;
-    font-family: sans-serif;
-}
-
-.contentAbout {
-    width: 65%;
-    height: 500px;
-    position: absolute;
-    top: 220px;
-    left: 260px;
-    border: 2px solid black;
-    background: rgba(40, 5, 0, 0.7);
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-}
-
-.contentContact {
-    width: 65%;
-    height: 500px;
-    position: absolute;
-    top: 220px;
-    left: 260px;
-    border: 2px solid black;
-    background: rgba(40, 5, 0, 0.7);
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-}
-
-
-.contentRules {
-    width: 65%;
-    height: 500px;
-    position: absolute;
-    overflow: scroll;
-    top: 220px;
-    left: 260px;
-    border: 2px solid black;
-    background: rgba(40, 5, 0, 0.7);
-    font-size: 18px;
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-#center {
-    text-align: justify;
-    width: 90%;
-    margin: 0 auto;
+    font-family: monospace;
 }
 
 .contentInfo {
     width: 65%;
-    height: 500px;
+    height: 80%;
     position: absolute;
-    top: 220px;
+    top: 140px;
     left: 260px;
     border: 2px solid black;
     background: rgba(40, 5, 0, 0.7);
     font-size: 18px;
     text-align: left;
     color: white;
-    font-family: sans-serif;
+    font-family: monospace;
     overflow: scroll;
 }
 
+
 .contentRegister {
     width: 65%;
-    height: 500px;
+    height: 80%;
     position: absolute;
-    top: 220px;
+    top: 140px;
     left: 260px;
     border: 2px solid black;
     background: rgba(40, 5, 0, 0.7);
     font-size: 18px;
     color: white;
-    font-family: sans-serif;
+    font-family: monospace;
     padding-left: 15px;
     overflow: scroll;
 }
 
 
 
-/*Center form */
+/*Center and organize Rules content*/
 
-#centerRegister {
+#centerRules {
     text-align: justify;
+    width: 90%;
     margin: 0 auto;
-    width: 70%;
-    background-color: linen;
-    padding: 15px;
-    color: black;
-    border: 3px solid black;
+}
+
+#ruleScroll {
+    overflow: scroll;
 }
 
 
 
-/* Poisition titles*/
+/*Center and organize Register content*/
+
+#centerRegister {
+    margin: 0 auto;
+    width: 70%;
+    padding: 15px;
+    color: white;
+}
+
+
+
+/*Center and organize About content*/
+
+#centerAbout {
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/* Poisition titles of game_info*/
 
 .left {
     padding-left: 15px;
 }
+
+
 
 
 /*Seperate table rows*/
@@ -207,25 +228,24 @@ a:hover {
 }
 
 
+
+
 /*Seperate table rows*/
 
-td {
+.contentInfo td {
     padding: 0px 70px 10px 70px;
 }
 
 
-/* Poisition title*/
+
+
+/* Poisition title of game locations on game_info page*/
 
 #location {
     padding-left: 15px;
 }
 
 
-/*Enlarge address box*/
-
-.address {
-    width: 65%;
-}
 
 
 /*Set underline to 'Permission to play'*/
@@ -234,7 +254,32 @@ td {
     text-decoration: underline;
 }
 
+/* Give spacing between jersey tables*/
 
+.jersey {
+    margin-left: 15px;
+}
+
+form td {
+    padding-left: 50px;
+}
+
+.boxtable {
+    display: table;
+}
+
+.boxtable p {
+    display: table-row;
+    font-size: 18px;
+}
+
+.boxtable label {
+    display: table-cell;
+}
+
+.boxtable input {
+    display: table-cell;
+}
 /*Position map*/
 
 iframe {
@@ -243,8 +288,22 @@ iframe {
 }
 
 
-/*Align button to center*/
+
+input {
+    border: 0;
+    outline: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid white;
+}
+
+
+/*Align button to center and color*/
 
 #submit {
     text-align: center;
+}
+
+#submit input {
+    color: white;
+    background-color: black;
 }
