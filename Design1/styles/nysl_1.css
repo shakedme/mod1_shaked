@@ -103,3 +103,15 @@ body {
 .mainContent {
     font-style: italic;
 }
+
+
+
+/*
+
+- improve css selectors.
+e.g. 
+#header h2{
+    ...
+}
+
+*/
