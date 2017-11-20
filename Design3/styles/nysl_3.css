@@ -33,15 +33,7 @@ body {
 
 .title {
     text-align: center;
-<<<<<<< HEAD
     font-size: 420%;
-=======
-    font-size: 60px;
-    font-family: sans-serif;
-    /* try to be more specific */
-
-    font-size: 55px;
->>>>>>> cc4e5f7402409de56ba4afe946c547998e8a5516
     font-family: monospace;
     border: 1px solid black;
     background-color: black;
@@ -184,6 +176,7 @@ a:hover {
     /* usually not a fan of this positioning. will break your neck on mobile*/
     position: absolute;
 
+}
 
 /*Center and organize Rules content*/
 
