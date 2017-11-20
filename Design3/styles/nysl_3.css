@@ -281,7 +281,6 @@ form td {
 /*Position map*/
 
 iframe {
-    margin-left: 280px;
     margin-top: 15px;
 }
 
@@ -290,7 +289,7 @@ iframe {
 input {
     border: 0;
     outline: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid white;
 }
 
@@ -304,4 +303,8 @@ input {
 #submit input {
     color: white;
     background-color: black;
+}
+
+#maps {
+    margin-left: 22px;
 }
