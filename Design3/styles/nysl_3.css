@@ -218,7 +218,9 @@ a:hover {
 }
 
 #centerInfo {
+    width: 100%;
     margin: 0 auto;
+    text-align: justify;
 }
 
 
@@ -324,6 +326,7 @@ input {
 
 #submit {
     text-align: center;
+    cursor: pointer;
 }
 
 #submit input {
