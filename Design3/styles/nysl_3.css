@@ -5,7 +5,7 @@ body {
     background-image: url(../images/soccer3.jpeg);
     background-size: cover;
 }
-
+/* background image can be improved*/
 
 /*Edit scrollbar properties */
 
@@ -29,6 +29,10 @@ body {
 
 .title {
     text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    /* try to be more specific */
+
     font-size: 55px;
     font-family: monospace;
     border: 1px solid black;
@@ -167,6 +171,11 @@ a:hover {
 }
 
 
+.contentRules {
+    width: 1000px;
+    height: 500px;
+    /* usually not a fan of this positioning. will break your neck on mobile*/
+    position: absolute;
 
 /*Center and organize Rules content*/
 
