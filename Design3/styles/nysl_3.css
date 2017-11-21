@@ -1,3 +1,5 @@
+
+
 /* Setting body margin and background image*/
 
 body {
@@ -101,6 +103,7 @@ a:hover {
     text-align: center;
     font-family: monospace;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -158,6 +161,7 @@ a:hover {
 
 
 .contentRegister {
+
     width: 65%;
     height: 600px;
     margin: 0 auto;
